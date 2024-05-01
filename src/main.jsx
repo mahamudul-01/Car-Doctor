@@ -12,7 +12,9 @@ import './index.css'
 import router from './Routers/Routers.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <div className='max-w-7xl mx-auto font-inter'>
+    <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
+  </div>
 )
